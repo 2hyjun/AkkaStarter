@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5f85f9cc-fe43-4850-8bf8-a45d11612098" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1YWEs2vLT3xI5fLMEGjC0ueHfjb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Scala" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="ActorsCreate" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="io.josh.akkastarter.ActorsCreate" />
+      <module name="boilerplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.josh.akkastarter.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="io.josh.akkastarter.chat.Main" />
+      <module name="akkaStarter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.josh.akkastarter.chat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="io.josh.akkastarter.basic.Main" />
+      <module name="akkaStarter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.josh.akkastarter.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ActorsCreate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="akkaStarter" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="akkaStarter [file:/Users/2hyjun/Dev/PlayGround/AkkaStarter/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="akkaStarter-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="4153211612" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="1244562550" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f85f9cc-fe43-4850-8bf8-a45d11612098" name="Default Changelist" comment="" />
+      <created>1583050152146</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583050152146</updated>
+      <workItem from="1583050154043" duration="10651000" />
+      <workItem from="1583158509280" duration="57000" />
+      <workItem from="1583158606281" duration="333000" />
+      <workItem from="1583158953788" duration="281000" />
+      <workItem from="1583159256684" duration="441000" />
+      <workItem from="1583159714611" duration="8627000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="572" y="236" key="#Main" timestamp="1583053247062">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="572" y="236" key="#Main/0.23.1792.1097@0.23.1792.1097" timestamp="1583053247062" />
+    <state x="496" y="237" key="#Notifications" timestamp="1583159725745">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="496" y="237" key="#Notifications/0.23.1792.1097@0.23.1792.1097" timestamp="1583159725745" />
+    <state x="496" y="237" width="811" height="669" key="#Project_Structure" timestamp="1583050248310">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="496" y="237" width="811" height="669" key="#Project_Structure/0.23.1792.1097@0.23.1792.1097" timestamp="1583050248310" />
+    <state x="634" y="344" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1583167890636">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="634" y="344" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1583167890636" />
+    <state x="360" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583053236255">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="360" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1583053236255" />
+    <state x="592" y="381" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583158415659">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="592" y="381" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1583158415659" />
+    <state x="628" y="493" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1583053204942">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="628" y="493" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1583053204942" />
+    <state x="709" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1583050377187">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="709" y="276" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1583050377187" />
+    <state width="1750" height="373" key="GridCell.Tab.0.bottom" timestamp="1583168360631">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="373" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1583168360631" />
+    <state width="1750" height="373" key="GridCell.Tab.0.center" timestamp="1583168360630">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="373" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1583168360630" />
+    <state width="1750" height="373" key="GridCell.Tab.0.left" timestamp="1583168360630">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="373" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1583168360630" />
+    <state width="1750" height="373" key="GridCell.Tab.0.right" timestamp="1583168360631">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="373" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1583168360631" />
+    <state width="1750" height="373" key="GridCell.Tab.1.bottom" timestamp="1583168360632">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="373" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1583168360632" />
+    <state width="1750" height="373" key="GridCell.Tab.1.center" timestamp="1583168360631">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="373" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1583168360631" />
+    <state width="1750" height="373" key="GridCell.Tab.1.left" timestamp="1583168360631">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="373" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1583168360631" />
+    <state width="1750" height="373" key="GridCell.Tab.1.right" timestamp="1583168360631">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="373" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1583168360631" />
+    <state x="397" y="210" key="SettingsEditor" timestamp="1583159698004">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="397" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1583159698004" />
+    <state x="554" y="328" width="683" height="486" key="find.popup" timestamp="1583168054795">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="554" y="328" width="683" height="486" key="find.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1583168054795" />
+    <state x="561" y="268" width="670" height="676" key="search.everywhere.popup" timestamp="1583167683209">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="561" y="268" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1583167683209" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/io/josh/akkastarter/basic/HelloWorld.scala</url>
+          <line>48</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
