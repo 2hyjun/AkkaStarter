@@ -66,7 +66,7 @@ object ChatRoom {
           room ! PublishSessionMessage(screenName, message, from)
           Behaviors.same
         case NotifyClient(message) => {
-          clients.filterNot { client => client != message.from }.foreach(_ ! message)
+          clients.foreach(_ ! message)
           Behaviors.same
         }
         case JoinClient(client) =>

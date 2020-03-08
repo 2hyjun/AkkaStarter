@@ -24,7 +24,7 @@ object Main {
       val client1 = context.spawn(Client(4), "Client1")
       val client2 = context.spawn(Client(8), "Client2")
 
-
+      context.child("")
 
       context.watch(client1)
       context.watch(client2)
@@ -32,7 +32,6 @@ object Main {
       chatRoom ! GetSession("screen1", client1)
       Thread.sleep(1000)
       client1 ! ClientFollowed(client2)
-
 
       Behaviors.receiveSignal {
         case (_, Terminated(_)) =>

@@ -13,7 +13,7 @@ object Client {
           case SessionGranted(handle) =>
             handle ! PostMessage("Hello World!", context.self)
             Client(id, Option(handle))
-          case MessagePosted(screenName, message) =>
+          case MessagePosted(screenName, message, _) =>
             context.log.info(s"message has been posted by '${screenName}'\n ${"\t" * id}${message}")
             Behaviors.same
           case ClientFollowed(client) =>
@@ -22,5 +22,4 @@ object Client {
         }
       }
     }
-
 }
