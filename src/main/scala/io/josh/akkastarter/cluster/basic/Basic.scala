@@ -2,7 +2,8 @@ package io.josh.akkastarter.cluster.basic
 
 import akka.actor.typed.{ActorSystem, Behavior}
 import akka.actor.typed.scaladsl.Behaviors
-import akka.cluster.typed.{Cluster, Join, Leave}
+import akka.cluster.ClusterEvent.MemberEvent
+import akka.cluster.typed.{Cluster, Join, Leave, Subscribe}
 
 object Basic {
   def apply(): Behavior[Nothing] = Behaviors.setup[Nothing] { context =>
@@ -12,6 +13,6 @@ object Basic {
     val system = ActorSystem[Nothing](Basic(), "basic")
     val cluster = Cluster(system)
 
-    cluster.manager ! Leave(cluster.selfMember.address)
+    cluster.subscriptions ! Subscribe(system, classOf[MemberEvent])
   }
 }
