@@ -6,11 +6,11 @@ import akka.cluster.ClusterEvent.MemberEvent
 import akka.cluster.typed.{Cluster, Join, Leave, Subscribe}
 
 object Basic {
-  def apply(): Behavior[Nothing] = Behaviors.setup[Nothing] { context =>
+  def apply(): Behavior[MemberEvent] = Behaviors.setup[MemberEvent] { context =>
     Behaviors.same
   }
   def main(args: Array[String]): Unit = {
-    val system = ActorSystem[Nothing](Basic(), "basic")
+    val system = ActorSystem[MemberEvent](Basic(), "basic")
     val cluster = Cluster(system)
 
     cluster.subscriptions ! Subscribe(system, classOf[MemberEvent])
