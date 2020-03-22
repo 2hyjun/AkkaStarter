@@ -10,6 +10,12 @@ object Guardian {
   def apply(): Behavior[NotUsed] = Behaviors.setup { context =>
     implicit val system: ActorSystem[Nothing] = context.system
     Account.init()
+    val httpPort = 18080
+    val application = new AccountApplication()
+    val routes = AccountRoutes(application)
+
+    new HttpServer(routes, httpPort, context.system).start()
+
     Behaviors.empty
   }
 

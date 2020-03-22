@@ -86,7 +86,7 @@ object Account {
       context.log.info(s"${entityId}, $persistenceId created")
       EventSourcedBehavior.withEnforcedReplies(
         persistenceId,
-        OpenedAccount(BigDecimal(0)),
+        OpenedAccount(BigDecimal(100)),
         commandHandler,
         eventHandler
       )
